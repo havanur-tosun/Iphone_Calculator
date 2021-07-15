@@ -11,6 +11,7 @@ body {
 }
 
 .calculator {
+    margin-left: 650px;
     background: black;
     width: 563px;
     height: 1218px;
