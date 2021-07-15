@@ -106,7 +106,7 @@ const handleOperatorClick = (operation) => {
 
 
 
-// Add Event Listeners to functions
+
 acEl.addEventListener('click', () => {
   setStrAsValue('0');
   valueStrInMemory = null;
@@ -137,7 +137,7 @@ percentEl.addEventListener('click', () => {
 });
 
 
-// add event listeners to operators
+
 additionEl.addEventListener('click', () => {
   handleOperatorClick('addition');
 });
@@ -159,7 +159,7 @@ equalEl.addEventListener('click', () => {
 });
 
 
-// Add Event Listeners to numbers and decimal
+
 for (let i=0; i < numberElArray.length; i++) {
   const numberEl = numberElArray[i];
   numberEl.addEventListener('click', () => {
@@ -174,7 +174,6 @@ decimalEl.addEventListener('click', () => {
 });
 
 
-// Set up the time
 const updateTime = () => {
   const currentTime = new Date();
 
